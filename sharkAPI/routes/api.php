@@ -27,5 +27,7 @@ Route::group(['middleware' => ['cors']], function () {
 
     Route::post('/store/add', 'StoreController@add')->name('store.add');
 
+    Route::post('/store/search', 'StoreController@search')->name('store.search');
+
     Route::get('/feedback/generate', 'FeedbackController@generate')->name('feedback.generate');
 });

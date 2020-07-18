@@ -66,4 +66,17 @@ class StoreController extends Controller
 
         return response()->json([], 200);
     }
+
+    public function search(Request $request)
+    {
+        $data = $request->all();
+        $stores = Store::where('name', 'like', '%' . $data['keywords'][0] . '%');
+
+        foreach ($data['keywords'] as $keyword) {
+            $stores->orWhere('name', 'like', '%' . $keyword . '%')
+                   ->orWhere('address', 'like', '%' . $keyword . '%');
+        }
+
+        return response()->json($stores->get(['id', 'name', 'address']));
+    }
 }
