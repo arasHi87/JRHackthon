@@ -1,0 +1,114 @@
+{
+    "type": "bubble",
+    "hero": {
+        "type": "image",
+        "url": "https://images.deliveryhero.io/image/fd-tw/LH/z3la-hero.jpg?width=4000&height=1000",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+        {
+            "type": "text",
+            "text": "尚無資料",
+            "weight": "bold",
+            "size": "xl"
+        },
+        {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "md",
+            "contents": [
+            {
+                "type": "icon",
+                "size": "sm",
+                "url": "https://maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_empty_14.png"
+            },
+            {
+                "type": "icon",
+                "size": "sm",
+                "url": "https://maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_empty_14.png"
+            },
+            {
+                "type": "icon",
+                "size": "sm",
+                "url": "https://maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_empty_14.png"
+            },
+            {
+                "type": "icon",
+                "size": "sm",
+                "url": "https://maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_empty_14.png"
+            },
+            {
+                "type": "icon",
+                "size": "sm",
+                "url": "https://maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_empty_14.png"
+            },
+            {
+                "type": "text",
+                "text": "0.0",
+                "size": "sm",
+                "color": "#999999",
+                "margin": "md",
+                "flex": 0
+            }
+            ]
+        },
+        {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+            {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                {
+                    "type": "text",
+                    "text": "Place",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                },
+                {
+                    "type": "text",
+                    "text": "尚無資料",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                }
+                ]
+            }
+            ]
+        }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+        {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+            "type": "postback",
+            "label": "Get Map",
+            "data": "尚無資料,尚無資料,尚無資料,尚無資料"
+            }
+        },
+        {
+            "type": "spacer",
+            "size": "sm"
+        }
+        ],
+        "flex": 0
+    }
+}

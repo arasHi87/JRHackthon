@@ -1,0 +1,42 @@
+[
+    {
+        "name": "麥當勞",
+        "image": "https://images.deliveryhero.io/image/fd-tw/LH/z3la-hero.jpg?width=4000&height=1000",
+        "address": "台南市永康區大灣路796號",
+        "rating": 0,
+        "latitude": 23.0057342,
+        "longitude": 120.2628718,
+        "feedback": [
+            {
+                "username": "伊嵐_1",
+                "rating": 1,
+                "comment": "讚啦"
+            },
+            {
+                "username": "伊嵐_2",
+                "rating": 3,
+                "comment": "讚啦！"
+            }
+        ]
+    },
+    {
+        "name": "麥當勞",
+        "image": "https://images.deliveryhero.io/image/fd-tw/LH/z3la-hero.jpg?width=4000&height=1000",
+        "address": "台南市永康區大灣路796號",
+        "rating": 5,
+        "latitude": 23.0057342,
+        "longitude": 120.2628718,
+        "feedback": [
+            {
+                "username": "伊嵐_1",
+                "rating": 1,
+                "comment": "讚啦"
+            },
+            {
+                "username": "伊嵐_2",
+                "rating": 3,
+                "comment": "讚啦！"
+            }
+        ]
+    }
+]
