@@ -37,6 +37,7 @@ install bot requirement
 ```
 export ACCESS_TOKEN=<your access token>
 export SECRET=<your secret>
+export SHARK_API_URL=<the api url>
 cd sharkBot
 pip3 install requirements.txt
 python3 main.py
