@@ -70,7 +70,6 @@ class StoreController extends Controller
     public function search(Request $request)
     {
         $data = $request->all();
-        return response()->json($data);
         $stores = Store::where('name', 'like', '%' . $data['keywords'][0] . '%');
 
         foreach ($data['keywords'] as $keyword) {
