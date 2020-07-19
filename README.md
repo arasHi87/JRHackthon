@@ -16,6 +16,8 @@ $ docker-compose up -d mysql workspace apache2
 $ cd ../sharkWeb
 $ npm i && npm run && npm install && npm run build && npm run export
 $ mv dist/* ../sharkAPI/public/
+$ cd ../sharkAPI
+$ php artisan db:seed
 $ php artisan optimize
 ```
 
